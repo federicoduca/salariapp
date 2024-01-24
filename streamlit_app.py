@@ -42,7 +42,7 @@ with st.expander(":soon: **Ideas para el futuro**"):
         - Carga de archivos Excel 
         """
     )
-with st.expander(":nerd: **Explicación técnica del cálculo**"):
+with st.expander(":bar_chart: **Explicación técnica del cálculo**"):
     st.markdown(
         """
             :one: Primero que nada preprocesamos tus datos. Puede pasar que para un mismo mes tengas más de un ingdf_reso (bono, aguinaldo, etc.). Es por esto, que sumamos todos los ingdf_resos mensuales y luego generamos una columna adicional 'Cantidad de Ingdf_resos' que contabiliza cuantos ingdf_resos se tuvo durante ese mes.
